@@ -1,12 +1,9 @@
-/*
-  * Array (Vetores)
-      * Uma lista
-      * Agrupamento de dado
-  
-    ["Matheus", 21]
+let weight
 
-*/
+console.log(typeof weight)
 
-console.log([
-  "Mathues", 21
-])
+let name = 'Matheus'
+let age = 21
+let stars = 5
+let isSubscribed = true 
+
