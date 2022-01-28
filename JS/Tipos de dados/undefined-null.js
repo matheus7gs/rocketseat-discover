@@ -5,7 +5,7 @@
   * null
       * nulo
       * objeto que não possui nada dentro
-      * diferente deindefinido 
+      * diferente de indefinido 
 
 */
 

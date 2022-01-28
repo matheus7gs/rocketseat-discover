@@ -1,15 +1,11 @@
-/*
-  Estrutura de repetição
-
-    * for...in
-*/
-let person = {
-  name: 'Matheus',
-  age: 21,
-  weight: 65.5
+function Person(name) {
+  this.name = name
+  this.talk = () => {
+    return this.name + " está falando"
+  }
 }
+const matheus = new Person('Matheus')
+const mayk = new Person('Mayk')
 
-for(let prooerty in person) {
-  console.log(prooerty)
-  console.log(person[prooerty])
-}
+console.log(matheus.talk())
+console.log(mayk.talk())

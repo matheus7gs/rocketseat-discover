@@ -18,7 +18,7 @@
 
   ## Estruturais
 
-    * Objeto
+    * Object
       * Array
       * Map
       * Set

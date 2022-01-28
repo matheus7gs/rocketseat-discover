@@ -9,7 +9,7 @@ let person = {
   weight: 65.5
 }
 
-for(let prooerty in person) {
-  console.log(prooerty)
-  console.log(person[prooerty])
+for(let property in person) {
+  console.log(property)
+  console.log(person[property])
 }
